@@ -13,6 +13,7 @@ var enemyAttack = 12;
 //      * Defeat each enemy-robot
 //"LOSE" - Player robot's health is zero or less
 
+// I DO NOT UNDERSTAND WHY THE PARAMETER enemyName IS STILL WORKING EVEN THOUGH THE ARRAY NAME IS NOW enemyNames
 var fight = function(enemyName) {
     //alerts players the round has started
     window.alert("Welcome to Robot Gladiators!");
